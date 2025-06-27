@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Esketési ajánlat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      color: #444;
+    }
+    h1 {
+      color: #a186be;
+    }
+    .details {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    .details ul {
+      padding-left: 20px;
+    }
+    .details li {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kedves {{menyasszony}} & {{vőlegény}}!</h1>
+  <p>Örömmel küldöm el szertartásvezetői ajánlatomat a magyar nyelvű esküvőtökhöz. Az Angel Ceremony által megálmodott 30 perc varázslat lesz – egy felejthetetlen élmény, ami megalapozza az egész nap ünnepi hangulatát.</p>
+
+  <div class="details">
+    <h2>Az esküvő részletei:</h2>
+    <ul>
+      <li>Dátum: {{datum}}</li>
+      <li>Helyszín: {{helyszin}}</li>
+      <li>Kezdés: {{kezdes}}</li>
+      <li>Létszám: {{letszam}} fő</li>
+      <li>Csomag: {{csomag}}</li>
+      <li>Kiszállási díj: {{kiszallasiDij}}</li>
+    </ul>
+  </div>
+</body>
+</html>
