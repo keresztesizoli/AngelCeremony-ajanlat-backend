@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: angelceremony-ajanlat-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    nodeVersion: 20.11.1

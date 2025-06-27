@@ -1,15 +1,14 @@
-
 {
-  "name": "ajanlat-generator-backend",
+  "name": "angelceremony-backend",
   "version": "1.0.0",
-  "description": "Express + Puppeteer alapú PDF generátor",
-  "main": "server.js",
   "type": "module",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
+    "body-parser": "^1.20.2",
     "puppeteer": "^21.3.8"
   }
 }
